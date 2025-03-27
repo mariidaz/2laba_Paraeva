@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewlery shop</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lumière Jewelry</h1>
+        <!-- <div class="filters">
+            <button data-category="all">All</button>
+            <button data-category="necklace">Neclace</button>
+            <button data-category="ring">Ring</button>
+        </div> -->
+    </header>
+    <noscript>turn on js!!</noscript>
+
+    <main>
+        <section class="intro">
+            <div class="left">
+                <h2>Welcome to the jewelry store!</h2>
+                <p>Here you will find exquisite jewelry created with love and skill.
+                    Precious metals, sparkling stones and impeccable style - everything to highlight your individuality.
+                    Dive into the world of luxury and elegance with us! 💎✨</p>
+            </div>
+            <div class="right">
+                <img src="./img/for-index.png" alt="just img">
+            </div>
+        </section>
+
+        <section class="products_list">
+            <div class="filters">
+                <button data-category="all">All</button>
+                <button data-category="necklace">Neclace</button>
+                <button data-category="ring">Ring</button>
+            </div>
+            <div class="products" id="products"></div>
+            <button id="load_more">Show more</button>
+        </section>
+
+        <div class="hidden" id="subscribe">
+            <p>Subscribe to store updates!</p>
+            <button id="subscribe_accept">Accept</button>
+            <button id="subscribe_decline">Decline</button>
+        </div>
+
+        <div class="hidden" id="ad">
+            <p>Special 20% discount on the new collection!</p>
+            <button id="close_ad" disabled>Please wait..</button>
+        </div>
+
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
